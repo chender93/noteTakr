@@ -1,0 +1,24 @@
+{
+  "name": "weeklychallenge",
+  "version": "1.0.0",
+  "description": "GIVEN a note-taking application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chender93/noteTakr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chender93/noteTakr/issues"
+  },
+  "homepage": "https://github.com/chender93/noteTakr#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

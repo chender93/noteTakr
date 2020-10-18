@@ -4,11 +4,12 @@ const $saveNoteBtn = $(".save-note");
 const $newNoteBtn = $(".new-note");
 const $noteList = $(".list-container .list-group");
 
+
 // activeNote is used to keep track of the note in the textarea
 var activeNote = {};
 
 // A function for getting all notes from the db
-var getNotes = function() {
+const getNotes = function() {
   return $.ajax({
     url: "/api/notes",
     method: "GET"
@@ -16,7 +17,7 @@ var getNotes = function() {
 };
 
 // A function for saving a note to the db
-var saveNote = function(note) {
+const saveNote = function(note) {
   return $.ajax({
     url: "/api/notes",
     data: note,
@@ -25,7 +26,7 @@ var saveNote = function(note) {
 };
 
 // BONUS A function for deleting a note from the db
-var deleteNote = function(id) {
+const deleteNote = function(id) {
   return $.ajax({
     url: "api/notes/" + id,
     method: "DELETE"
@@ -33,7 +34,7 @@ var deleteNote = function(id) {
 };
 
 // If there is an activeNote, display it, otherwise render empty inputs
-var renderActiveNote = function() {
+const renderActiveNote = function() {
   $saveNoteBtn.hide();
 
   if (activeNote.id) {
@@ -50,8 +51,8 @@ var renderActiveNote = function() {
 };
 
 // Get the note data from the inputs, save it to the db and update the view
-var handleNoteSave = function() {
-  var newNote = {
+const handleNoteSave = function() {
+  let newNote = {
     title: $noteTitle.val(),
     text: $noteText.val()
   };
@@ -62,12 +63,12 @@ var handleNoteSave = function() {
   });
 };
 
-// BONUS Delete the clicked note
-var handleNoteDelete = function(event) {
+// Delete the clicked note
+const handleNoteDelete = function(event) {
   // prevents the click listener for the list from being called when the button inside of it is clicked
   event.stopPropagation();
 
-  var note = $(this)
+  let note = $(this)
     .parent(".list-group-item")
     .data();
 
@@ -82,13 +83,13 @@ var handleNoteDelete = function(event) {
 };
 
 // Sets the activeNote and displays it
-var handleNoteView = function() {
+const handleNoteView = function() {
   activeNote = $(this).data();
   renderActiveNote();
 };
 
 // Sets the activeNote to and empty object and allows the user to enter a new note
-var handleNewNoteView = function() {
+const handleNewNoteView = function() {
   activeNote = {};
   renderActiveNote();
 };

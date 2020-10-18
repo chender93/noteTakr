@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/chender93/noteTakr#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.4"
   }
 }

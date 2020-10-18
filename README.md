@@ -1,7 +1,7 @@
 # Note Takr Starter Code
 This project was created as an assignment for the PennLPS Fullstack Bootcamp.
 
-<img src = "Develop/public/assets/images/NoteTakr.gif"> 
+![App Walkthrough](https://raw.githubusercontent.com/chender93/noteTakr/main/Develop/public/assets/images/NoteTakr.gif.gif)
 
 ## Tools used for this project
 - HTML

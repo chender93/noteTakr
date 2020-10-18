@@ -33,7 +33,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Approach
 Agile Methodology
+Test Driven Development (Testing my code and searching for feature bugs prior to deploying final code)
 
-### You can see our deployed project [Here](https://bmralph87.github.io/cats)
+### You can see my deployed project [Here](https://hidden-coast-30424.herokuapp.com/)
 
-#### Our repo can be found [Here](https://github.com/bmralph87/cats.git)
+#### My repo can be found [Here](https://github.com/chender93/noteTakr)

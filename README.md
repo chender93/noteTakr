@@ -1,4 +1,19 @@
 # Note Takr Starter Code
+This project was created as an assignment for the PennLPS Fullstack Bootcamp.
+
+<img src = "Develop/public/assets/images/NoteTakr.gif"> 
+
+## Tools used for this project
+- HTML
+- CSS/ Bootstrap
+- JavaScript
+- Express
+- UUIDV4 Package
+- Personalized APIs
+- Heroku
+
+## Objective
+This project was created in order for users to be able to create, save, and delete notes at their discretion. The app will save your notes for later reference.
 
 ## Aceeptance Criteria
 GIVEN a note-taking application
@@ -15,3 +30,10 @@ WHEN I click on an existing note in the list in the left-hand column
 THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+
+## Approach
+Agile Methodology
+
+### You can see our deployed project [Here](https://bmralph87.github.io/cats)
+
+#### Our repo can be found [Here](https://github.com/bmralph87/cats.git)
